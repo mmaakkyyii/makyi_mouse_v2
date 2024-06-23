@@ -1,0 +1,2793 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8228ea3d-a55a-4f7f-8876-49c8a4b14b7b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_Photo_NPN"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Photo_NPN"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN phototransistor, collector/emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "phototransistor NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Photo_NPN_0_1"
+				(polyline
+					(pts
+						(xy -1.905 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.175) (xy -1.905 1.27) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 4.445) (xy -1.27 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Photo_NPN_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "wall_sensor:BCR421UW6-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.064 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BCR421UW6-7"
+				(at -8.001 -1.143 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0.508 -16.637 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BCR420UW6-BCR421UW6.pdf"
+				(at 0.381 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BCR421UW6-7_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -8.89) (xy 3.048 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.604) (xy 5.08 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.096) (xy 2.54 -6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 5.08 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 2.54 -10.16) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -9.652) (xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.112) (xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.508) (xy 5.08 -5.08) (xy 3.81 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -8.128) (xy 3.048 -8.128) (xy 2.54 -8.89) (xy 2.032 -8.128)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -6.858) (xy 5.08 -7.112) (xy 4.572 -6.985) (xy 4.699 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 -0.508) (xy 5.08 -0.508) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -3.81)
+					(end 2.794 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -6.096)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.826 -8.382)
+					(end 5.334 -9.652)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -10.16)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BCR421UW6-7_1_1"
+				(rectangle
+					(start 0 0)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 2.54 2.54 270)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 2.54 270)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 270)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 270)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "R_EXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 133.35 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc15561-eb41-46ff-9e72-3e5cacbadd87")
+	)
+	(junction
+		(at 175.26 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "303e81b0-6127-4622-b870-2b064f528f0e")
+	)
+	(junction
+		(at 153.67 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "411ff30f-4efc-4fdc-b2d9-2cf51f8865ad")
+	)
+	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72fd6797-10dc-4188-b9f7-a4cdd60494a8")
+	)
+	(junction
+		(at 121.92 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac05eb3-57ec-4370-b29b-ae77c47985bf")
+	)
+	(junction
+		(at 121.92 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1f3daf8-d52e-4aa6-bf02-c089c9bd0cf5")
+	)
+	(junction
+		(at 107.95 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de9192d9-90e0-4831-be8a-f1c4360a8247")
+	)
+	(junction
+		(at 153.67 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e397276f-f56f-4983-b571-a0d4cb6e28f1")
+	)
+	(junction
+		(at 133.35 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e480e2c1-0671-48a0-a64d-f10aeb3edd35")
+	)
+	(wire
+		(pts
+			(xy 74.93 130.81) (xy 107.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ffc7df-2a93-4311-89ad-072ec7722f38")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0883c6fc-2f26-4f1b-a1e9-4b0039873429")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7c178d-d405-43ff-a2d8-3a74005d76b3")
+	)
+	(wire
+		(pts
+			(xy 74.93 85.09) (xy 74.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142733fc-15ee-4bf9-a3bc-2db58eb3d246")
+	)
+	(wire
+		(pts
+			(xy 129.54 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19051554-2764-41e8-80c9-87c1119f3eb8")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 107.95 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e6e322b-6d19-4440-9b65-a43c3edabf8c")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32603d30-51fc-4e77-8f2d-22ca740cf8c7")
+	)
+	(wire
+		(pts
+			(xy 82.55 80.01) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3284acb5-ac9f-4e18-80a9-eaf09e536532")
+	)
+	(wire
+		(pts
+			(xy 121.92 93.98) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353823c1-3c38-4241-9f90-ab745166d4cc")
+	)
+	(wire
+		(pts
+			(xy 99.06 87.63) (xy 82.55 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389f0590-2286-4c35-88eb-777baca824dd")
+	)
+	(wire
+		(pts
+			(xy 121.92 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9bc4b3-a8c0-48ab-85d3-73929f415293")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e3e889-ec05-4472-a1fa-1d9dfb5ce3c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 115.57) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dee3846-27bc-4662-a91a-c9bc4e8279a3")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 129.54 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b9ce4f-d560-417c-9a48-dc182439b96f")
+	)
+	(wire
+		(pts
+			(xy 133.35 130.81) (xy 153.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57629594-939c-4e24-9b47-cf0357c15b56")
+	)
+	(wire
+		(pts
+			(xy 95.25 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cacebdd-5765-460c-a7e8-bbbbc697517e")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6e713b-6ef0-4782-88ee-0b18ae3dd682")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605b01c9-0c84-431a-98f9-b60e9642217f")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 74.93 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b089701-464b-4c69-8482-b64a0a8f3ad4")
+	)
+	(wire
+		(pts
+			(xy 139.7 114.3) (xy 139.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa7336b-5091-425a-b3fc-3ceab35cbbec")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 139.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e4fe99-1dab-45de-9c57-851729f5bc03")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d610173-95c8-4d33-9f0b-5be5b50ae979")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e859a0b-2a41-49e9-9413-772014e915c1")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc339cf-3725-4354-8b65-91485dc9c0c3")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e2a719-0aa1-4e02-9029-4a2df1c9b714")
+	)
+	(wire
+		(pts
+			(xy 129.54 109.22) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869f9c80-9cbd-4722-82d0-15db136e404d")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f0a5b5-5b9f-4d95-b66f-f215dbdace6c")
+	)
+	(wire
+		(pts
+			(xy 153.67 130.81) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be137a1-7bf4-450b-a892-9cefe6de907c")
+	)
+	(wire
+		(pts
+			(xy 121.92 76.2) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab075def-abe8-454e-ad7b-a478916b6fbe")
+	)
+	(wire
+		(pts
+			(xy 99.06 76.2) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc694038-3f8a-4384-95de-6f527b100897")
+	)
+	(wire
+		(pts
+			(xy 139.7 115.57) (xy 133.35 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0550558-cc57-4162-a2bd-24b6105a84eb")
+	)
+	(wire
+		(pts
+			(xy 107.95 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2448304-a4e5-4504-a628-1a04c0a0d8fd")
+	)
+	(wire
+		(pts
+			(xy 180.34 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66148fb-6af2-4e01-85db-07997d0258d4")
+	)
+	(wire
+		(pts
+			(xy 120.65 86.36) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d491a18c-913a-466f-aa24-b8161bc1a3c7")
+	)
+	(wire
+		(pts
+			(xy 153.67 109.22) (xy 153.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93caa35-6529-42f8-8951-3971af096cda")
+	)
+	(wire
+		(pts
+			(xy 175.26 109.22) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef978582-d354-4a92-bcb5-efe2dd1ed554")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ecffca-b7e0-4161-a253-b83f3af812ea")
+	)
+	(wire
+		(pts
+			(xy 107.95 86.36) (xy 113.03 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45f5517-ebb4-4b74-8d41-dbd75717a56e")
+	)
+	(wire
+		(pts
+			(xy 153.67 97.79) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57885f4-1306-469c-b66b-c296672e9323")
+	)
+	(wire
+		(pts
+			(xy 153.67 76.2) (xy 153.67 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a36512-cdef-402d-88cb-3f6db9cdb863")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf1678a-52f7-4ed4-bbfe-71c2726acab4")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe7fcb2-72ba-4169-8a61-e8181f1a95b9")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 84.582 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "085ea1c2-d3a3-4b11-9a23-6473c871bd20")
+	)
+	(text "3.3=VCE+R3*Ic\nI=-1/R3*Vce+3.3/R3\n\n3.3/R3=0.8 mA\nR3=4125 ohm = 4.3 kohm\n"
+		(exclude_from_sim no)
+		(at 158.75 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "655a3a3b-b03e-41e2-ae5c-6bfb2183c1ee")
+	)
+	(text "I_{out}=100 mA @R_{EXT}=8.2 ohm \nI_{out}=50 mA  @R_{EXT}=20 ohm \n"
+		(exclude_from_sim no)
+		(at 100.33 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68b2c016-e29f-4d4a-8042-a039ca4e9992")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 84.836 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "985342a7-0b7f-4b9d-87a7-82ae498e51af")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 77.47 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0737de1d-dd49-4d08-b275-ae950bbafc07")
+		(property "Reference" "J1"
+			(at 78.105 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 74.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "makyi_mouse:wall_sensor_board"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "-"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a9d2208-3c66-45bc-b932-7a572038b636")
+		)
+		(pin "2"
+			(uuid "3de7085d-a895-4cc2-8e10-5f7a34825d71")
+		)
+		(pin "3"
+			(uuid "55c1573c-04dc-44a0-a55c-82c111f26804")
+		)
+		(pin "4"
+			(uuid "df812003-9e96-427b-8491-988979070d67")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c93c4ae-b017-47a7-a0df-39fb6cb84184")
+		(property "Reference" "C2"
+			(at 168.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 168.91 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 165.1 100.0252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM155R61E105KA12D/4905139"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "ok"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b93315-a524-4619-8785-d3b5d6509708")
+		)
+		(pin "2"
+			(uuid "d605653a-ae2f-45ca-8a15-2b51b4bcc8e2")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "C9")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "C11")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 121.92 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66640296-ebc8-43c3-b0a3-dfe4c416a99e")
+		(property "Reference" "D1"
+			(at 125.73 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSI5FU3A11C"
+			(at 133.35 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "makyi_mouse:LED"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/OSI5FU3A11C.pdf"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://akizukidenshi.com/catalog/g/g104313/"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "aki"
+			(at 121.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0edd075-bbdb-47c4-a2f8-f6b03fd74d32")
+		)
+		(pin "2"
+			(uuid "fefe3b4d-0e25-46b1-a307-22613ef778fe")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c42c96f-4eaa-44e8-a770-c92ed3cf9096")
+		(property "Reference" "R3"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8.2"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 141.478 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/yageo/RC0402FR-078R2L/5917766"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "-"
+			(at 139.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa5248d-2544-4f4a-9e09-38df0c5badfa")
+		)
+		(pin "2"
+			(uuid "421d7ae1-147a-424a-9be2-e449afee7252")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_Photo_NPN")
+		(at 151.13 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6b22cd7-aaf3-4f2e-931b-0a16e86acbb2")
+		(property "Reference" "Q1"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTR-4206"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "makyi_mouse:LED"
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-50-92-0072/R4206.pdf"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/liteon/LTR-4206/214965"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "ok"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f532cc71-ebc4-43a1-b335-025fb6c5c2e8")
+		)
+		(pin "2"
+			(uuid "3c327a15-10eb-4d7c-aaae-75951ef4fafe")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3164b70-5386-4c61-a883-852277e618b1")
+		(property "Reference" "R2"
+			(at 172.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.3k"
+			(at 172.72 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.482 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/yageo/RC0402FR-074K3L/726604"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "-"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e205efd6-42c0-45dd-9c26-62faf3971a8d")
+		)
+		(pin "2"
+			(uuid "f15af031-87f8-43d0-814e-d10b3cd1714d")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "wall_sensor:BCR421UW6-7")
+		(at 114.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8956b4f-7a04-46cd-80c6-2c450d92a9ce")
+		(property "Reference" "U1"
+			(at 113.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BCR421UW6-7"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 114.808 118.237 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BCR420UW6-BCR421UW6.pdf"
+			(at 114.681 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/diodes-incorporated/BCR421UW6-7/5247740"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "ok"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "deb341f7-e18c-499f-aad3-f32e48ce0677")
+		)
+		(pin "2"
+			(uuid "76ed8c9e-a7f6-49b4-aa9e-841b73655078")
+		)
+		(pin "3"
+			(uuid "1182610a-2f32-462a-9558-94c476020145")
+		)
+		(pin "4"
+			(uuid "b7e80dd0-1a1e-4085-8356-8bc3e87c537b")
+		)
+		(pin "5"
+			(uuid "c1c80fea-d1ae-4a62-9895-407f8608db7f")
+		)
+		(pin "6"
+			(uuid "03a72345-75bb-4111-b17c-8db89ef5d991")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "U5")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec2ca21f-850c-42f3-bfb0-5e0681cac438")
+		(property "Reference" "R1"
+			(at 157.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.3k"
+			(at 157.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 151.892 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/yageo/RC0402FR-074K3L/726604"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "-"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c555c906-5e10-41e6-ac48-8b07ce7ddb38")
+		)
+		(pin "2"
+			(uuid "c2fcbacd-bba5-4861-b290-3213ff29c670")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "R8")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb754ae1-3482-4650-8abe-14d775b2cb81")
+		(property "Reference" "C1"
+			(at 114.3 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 115.57 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 113.03 87.3252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/murata-electronics/GRM155R61E105KA12D/4905139"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "check_order" "ok"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67727425-1261-48b2-8a71-54b9e9f6eb55")
+		)
+		(pin "2"
+			(uuid "dcc5b8c3-b9e3-4495-b381-53c75315fd44")
+		)
+		(instances
+			(project "wall_sensor_v2"
+				(path "/3708a55f-07a0-4cfc-b449-419755235cce"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "wall_sensor"
+				(path "/7b10e7bc-6f8d-442e-81e7-fd9598139f1b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "makyi_mouse"
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/bfc2f991-0169-48ac-b510-49d87f0b6ce2"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/c0700b55-5f04-47a9-967f-7ceaffaaa4fb"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/f65e9e8c-8379-48be-9b93-bfdf2a4dc1a1"
+					(reference "C10")
+					(unit 1)
+				)
+				(path "/f3acd8cd-510e-41e4-8063-16cafada3867/fc5b112e-3bfe-4f6a-a450-3f58ee4fd59e"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

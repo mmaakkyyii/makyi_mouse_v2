@@ -1,0 +1,130 @@
+(footprint "enc_fp"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "16526921-4175-4caa-bda8-a1005128165b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "enc_fp"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f7495e3-4c7b-4380-a74c-c4b398535077")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "enc_fp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0b82c71-1b47-4c2e-b61a-7af44be617dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efd82154-a66d-4c93-bcd8-a449c04ec0c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66bde247-9201-4feb-be27-74a66be5ddfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5127 -0.5)
+		(end 2.5127 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.3")
+		(uuid "ddb4757c-5c6c-4552-8dde-c2366b9223ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a3241988-e701-4f12-bc9c-c61555c8ff71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 2.9873 0)
+		(size 2.5 1.8)
+		(drill oval 1.5 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2c53db8-989c-437f-b3f1-f3a412ab483d")
+	)
+	(pad "2" smd rect
+		(at 0.9873 -1)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "171305cb-4f49-4cea-90e5-c939ab64bd6b")
+	)
+	(pad "3" smd rect
+		(at -1.0127 -1)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c2cc6a5-80e6-4ad2-a436-735d2eeb5f4f")
+	)
+	(pad "4" smd rect
+		(at 0.9873 1)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6bcba58a-db7a-430c-be86-00e9225ad807")
+	)
+	(pad "5" smd rect
+		(at -1.0127 1)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d58c9243-1697-4a6f-bed0-a0b5ad235509")
+	)
+	(pad "6" thru_hole oval
+		(at -3.0127 0)
+		(size 2.5 1.8)
+		(drill oval 1.5 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff06d625-2605-44b6-b759-3ae8304b8ffa")
+	)
+)

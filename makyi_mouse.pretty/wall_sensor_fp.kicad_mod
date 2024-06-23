@@ -1,0 +1,153 @@
+(footprint "wall_sensor_fp"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.5 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ef1668ca-9d21-4331-86a6-924d8104ed84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "wall_sensor_fp"
+		(at 0 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c814d96c-70a4-448b-a20c-6fc7850d1f74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "wall_sensor_fp"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ea25ef3-bbf2-4b43-ac79-9e995a24eef2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e38303b-d961-4449-bdb1-ec26c38a9da8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6aaea906-0343-41c3-ae40-4f2a2b7a0fd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 4)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2cf9ec4f-b208-4112-b5ab-0912eb9212dd")
+	)
+	(fp_line
+		(start 1.5 4)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd62e6a0-1af1-4591-9aa6-7463ca7ad90d")
+	)
+	(fp_arc
+		(start 1.5 4)
+		(mid 0 5.5)
+		(end -1.5 4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc794a55-35f3-496e-985c-f8f7c0e12620")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9ee27bb-2440-4b28-bf11-05d73bcf015e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 1.25 90)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3dc1b4a5-0c0d-46d7-bb18-fa83fb57b66e")
+	)
+	(pad "2" smd rect
+		(at 0 -1.25 90)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2c9326bd-6b7c-47b5-a91c-854fb95597e5")
+	)
+	(pad "3" thru_hole oval
+		(at 2.5 0 180)
+		(size 2.5 2)
+		(drill oval 1.5 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "321159d7-8752-4219-9072-58c09993fd85")
+	)
+	(pad "4" thru_hole oval
+		(at -2.5 0 180)
+		(size 2.5 2)
+		(drill oval 1.5 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "018ca658-72f2-479f-9bbb-b7ac3e19df78")
+	)
+	(model "${KIPRJMOD}/wall_sensor.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
