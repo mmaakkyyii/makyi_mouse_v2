@@ -1283,16 +1283,16 @@
 		(uuid "1cc15561-eb41-46ff-9e72-3e5cacbadd87")
 	)
 	(junction
-		(at 175.26 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "303e81b0-6127-4622-b870-2b064f528f0e")
-	)
-	(junction
 		(at 153.67 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "411ff30f-4efc-4fdc-b2d9-2cf51f8865ad")
+	)
+	(junction
+		(at 180.34 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b7eed2b-8fd4-47eb-8118-fd6de042c459")
 	)
 	(junction
 		(at 121.92 86.36)
@@ -1342,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 180.34 62.23)
+			(xy 92.71 62.23) (xy 180.34 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 101.6) (xy 175.26 99.06)
+			(xy 180.34 101.6) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1419,16 +1419,6 @@
 			(type default)
 		)
 		(uuid "353823c1-3c38-4241-9f90-ab745166d4cc")
-	)
-	(wire
-		(pts
-			(xy 99.06 87.63) (xy 82.55 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "389f0590-2286-4c35-88eb-777baca824dd")
 	)
 	(wire
 		(pts
@@ -1502,7 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 82.55 82.55)
+			(xy 92.71 82.55) (xy 82.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1602,13 +1592,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 130.81) (xy 175.26 130.81)
+			(xy 153.67 130.81) (xy 180.34 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8be137a1-7bf4-450b-a892-9cefe6de907c")
+	)
+	(wire
+		(pts
+			(xy 82.55 87.63) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9aeaa1c-ddcc-4f75-a8fb-e07061001e3b")
 	)
 	(wire
 		(pts
@@ -1652,16 +1652,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 175.26 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66148fb-6af2-4e01-85db-07997d0258d4")
-	)
-	(wire
-		(pts
 			(xy 120.65 86.36) (xy 121.92 86.36)
 		)
 		(stroke
@@ -1682,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 175.26 130.81)
+			(xy 180.34 109.22) (xy 180.34 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1682,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 62.23) (xy 90.17 82.55)
+			(xy 92.71 62.23) (xy 92.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 175.26 99.06)
+			(xy 172.72 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1750,17 +1740,17 @@
 		)
 		(uuid "ffe7fcb2-72ba-4169-8a61-e8181f1a95b9")
 	)
-	(text "GND"
+	(text "HPF for 50/60Hz Light\nfc=100~200 Hz\n\nR=10k\nC=0.1u\nfc=160 Hz"
 		(exclude_from_sim no)
-		(at 84.582 84.582 0)
+		(at 195.834 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "085ea1c2-d3a3-4b11-9a23-6473c871bd20")
+		(uuid "2a2f0bc4-889a-4a1e-aefe-211cf01421e6")
 	)
-	(text "3.3=VCE+R3*Ic\nI=-1/R3*Vce+3.3/R3\n\n3.3/R3=0.8 mA\nR3=4125 ohm = 4.3 kohm\n"
+	(text "3.3=V_{CE}+R*I_{C}\nR=(3.3-V_{CE})/I_{C}\n\nV_{CE}=0.4 [V]\nI_{C}=4.3 [mA]\n\n(3.3-0.4)/0.002=145\nR=1.5 k"
 		(exclude_from_sim no)
 		(at 158.75 127 0)
 		(effects
@@ -1782,15 +1772,49 @@
 		)
 		(uuid "68b2c016-e29f-4d4a-8042-a039ca4e9992")
 	)
-	(text "3.3V"
-		(exclude_from_sim no)
-		(at 84.836 86.868 0)
+	(label "ENC_GND"
+		(at 82.55 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(uuid "985342a7-0b7f-4b9d-87a7-82ae498e51af")
+		(uuid "7694111b-db8d-4f53-bb5e-053834da45e8")
+	)
+	(label "ENC_LED"
+		(at 82.55 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "805ebeb6-68fa-4b05-a151-0b95303055fe")
+	)
+	(label "ENC_OUT"
+		(at 82.55 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6ab2883-faac-4800-bcbd-e301896ea5ac")
+	)
+	(label "ENC_3.3V"
+		(at 82.55 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8676e9b-21b8-4b28-a555-3a2600246163")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
@@ -1915,7 +1939,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "0.1u"
 			(at 168.91 95.25 90)
 			(effects
 				(font
@@ -2242,7 +2266,7 @@
 				)
 			)
 		)
-		(property "Value" "LTR-4206"
+		(property "Value" "OP505A"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -2250,7 +2274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "makyi_mouse:LED"
+		(property "Footprint" "makyi_mouse:LED_photo_tr"
 			(at 156.21 90.17 0)
 			(effects
 				(font
@@ -2259,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-50-92-0072/R4206.pdf"
+		(property "Datasheet" "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/OP505-506-535-705.pdf"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -2277,7 +2301,7 @@
 				(hide yes)
 			)
 		)
-		(property "order_URL" "https://www.digikey.jp/ja/products/detail/liteon/LTR-4206/214965"
+		(property "order_URL" "https://www.digikey.jp/ja/products/detail/tt-electronics-optek-technology/OP505A/498692"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -2336,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 105.41 0)
+		(at 180.34 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2345,25 +2369,25 @@
 		(fields_autoplaced yes)
 		(uuid "c3164b70-5386-4c61-a883-852277e618b1")
 		(property "Reference" "R2"
-			(at 172.72 106.68 0)
+			(at 182.88 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "4.3k"
-			(at 172.72 104.14 0)
+		(property "Value" "10k"
+			(at 182.88 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 173.482 105.41 90)
+			(at 178.562 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2396,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 105.41 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 105.41 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2414,7 @@
 			)
 		)
 		(property "order_URL" "https://www.digikey.jp/ja/products/detail/yageo/RC0402FR-074K3L/726604"
-			(at 175.26 105.41 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2423,7 @@
 			)
 		)
 		(property "check_order" "-"
-			(at 175.26 105.41 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2587,7 +2611,7 @@
 				)
 			)
 		)
-		(property "Value" "4.3k"
+		(property "Value" "1.5k"
 			(at 157.48 104.14 0)
 			(effects
 				(font

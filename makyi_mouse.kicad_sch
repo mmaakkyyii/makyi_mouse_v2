@@ -13033,7 +13033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5115afdd-1e08-4f3b-baa4-0d26d38e3b58")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 106.934 178.816 0)
 			(effects
 				(font

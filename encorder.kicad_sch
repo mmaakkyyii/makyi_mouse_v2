@@ -1490,7 +1490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da19c2b0-f9f5-40cf-b77b-d53c70e2b065")
-		(property "Reference" "J11"
+		(property "Reference" "J13"
 			(at 120.65 127 0)
 			(effects
 				(font
